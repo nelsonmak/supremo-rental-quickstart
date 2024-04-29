@@ -86,7 +86,7 @@ Click on the button below to deploy the baseline infrastructure using OCI Resour
 
     ![](img/backend_ip_addr.png)
 
-2. Search for `<backend_ip>` across all the files in this repository and update it with the value from the previous step. Use OCI Code Editor or your preferred IDE for optimal experience.
+2. Search for `140.238.10.184` across all the files in this repository and update it with the value from the previous step. Use OCI Code Editor or your preferred IDE for optimal experience.
 
 3. Commit and push the changes to Github repo main branch.
 

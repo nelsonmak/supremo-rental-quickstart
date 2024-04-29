@@ -35,7 +35,7 @@ function CarDetails({ setBookingDetails }) {
   }, [id]);
 
   useEffect(() => {
-    fetch(`http://<backend_ip>/order-service/user-orders?userid=${getUserId}`)
+    fetch(`http://140.238.10.184/order-service/user-orders?userid=${getUserId}`)
       .then((response) => response.json())
       .then((data) => {
         setcarsCountData(data);
@@ -46,7 +46,7 @@ function CarDetails({ setBookingDetails }) {
   }, [getUserId]);
 
   useEffect(() => {
-    fetch(`http://<backend_ip>/user-service-redis/users/${getUserId}`)
+    fetch(`http://140.238.10.184/user-service-redis/users/${getUserId}`)
       .then((response) => response.json())
       .then((data) => {
         setUserData(data);
